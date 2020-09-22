@@ -6,4 +6,4 @@ const sql = `create table if not exists contacts(
     primary key (id)
   )`;
 
-  module.exports = sql;
+module.exports = sql;
